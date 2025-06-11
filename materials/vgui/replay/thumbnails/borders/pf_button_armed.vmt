@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/borders/pf_button_armed"
+	"$translucent"	1
+}

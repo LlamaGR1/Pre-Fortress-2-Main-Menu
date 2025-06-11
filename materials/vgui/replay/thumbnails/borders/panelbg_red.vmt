@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/borders/panelbg_red"
+	"$translucent"	1
+}

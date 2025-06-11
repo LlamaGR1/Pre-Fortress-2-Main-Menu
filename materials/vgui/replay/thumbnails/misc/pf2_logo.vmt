@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/misc/pf2_logo"
+	"$translucent"	1
+}
