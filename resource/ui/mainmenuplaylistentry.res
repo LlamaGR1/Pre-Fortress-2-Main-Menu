@@ -1,0 +1,167 @@
+"Resource/UI/MainMenuPlayListEntry.res"
+{
+	"ToolTipHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipHack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"50"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"rs1-6"
+		"ypos"			"2"
+		"zpos"			"51"
+		"wide"			"122"
+		"tall"			"15"
+		"visible"		"0"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
+	}
+
+	"ModeButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ModeButton"
+		"xpos"			"6"
+		"zpos"			"6"
+		"wide"			"288"
+		"tall"			"50"
+		"proportionaltoparent"	"1"
+		"textAlignment"	"north-west"
+		"labelText"		"%button_token%"
+		"textinsetx"	"5"
+		"textinsety"	"4"
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallishBold"
+		"command"		"%button_command%"
+		"actionsignallevel"	"2"
+		"sound_armed"		"ui/buttonrollover.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"border_default"	"PFButtonDefault"
+		"border_armed"		"PFButtonArmed"
+		"border_selected"	"PFButtonArmed"
+		"paintBackground"	"0"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"		"54 49 46 255"
+		"depressedFgColor_override"	"54 49 46 255"
+		"selectedFgColor_override"	"54 49 46 255"
+	}
+
+	"MatchmakingBanPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MatchmakingBanPanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"3"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"0"
+		"mouseinputenabled"	"0"
+		"bgcolor_override"	"0 0 0 250"
+		"proportionaltoparent" "1"
+
+		"MatchmakingBanDurationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MatchmakingBanDurationLabel"
+			"font"			"MMenuPlayListDesc"
+			"fgcolor_override" "RedSolid"
+			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
+			"textalignment"	"south-west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent" "1"
+
+			"paintbackground" "0"
+		}
+	}
+
+	"DescLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"DescLabel"
+		"font"				"HudFontSmallest"
+		"labelText"			"%desc_token%"
+		"textAlignment"		"north-west"
+		"xpos"				"11"
+		"ypos"				"22"
+		"zpos"				"8"
+		"wide"				"200"
+		"tall"				"40"
+		"wrap"				"1"
+		"fgcolor_override"	"255 255 255 255"
+		"proportionaltoparent" "1"
+		"mouseinputenabled"	"0"
+	}
+
+	"DescLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"DescLabelShadow"
+		"font"				"HudFontSmallest"
+		"labelText"			"%desc_token%"
+		"textAlignment"		"north-west"
+		"xpos"				"12"
+		"ypos"				"23"
+		"zpos"				"7"
+		"wide"				"200"
+		"tall"				"40"
+		"wrap"				"1"
+		"fgcolor_override"	"54 49 46 255"
+		"proportionaltoparent" "1"
+		"mouseinputenabled"	"0"
+	}
+
+	"DisabledIcon"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"DisabledIcon"
+		"xpos"				"6"
+		"ypos"				"0"
+		"zpos"				"49"
+		"wide"				"288"
+		"tall"				"50"
+		"visible"			"0"
+		"labeltext"			""
+		"command"			"comp_access_info"
+		"actionsignallevel"	"1"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"paintBackground"	"0"
+
+		"image_drawcolor"		"255 255 255 255"
+		"image_armedcolor"		"243 145 86 255"
+		"image_selectedcolor"	"243 145 86 255"
+		"SubImage"
+		{
+			"xpos"			"rs1-10"
+			"ypos"			"cs-0.5"
+			"wide"			"20"
+			"tall"			"20"
+			"proportionaltoparent" "1"
+			"scaleImage"	"1"
+			"image"			"locked_icon"
+		}
+	}
+}
