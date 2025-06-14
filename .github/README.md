@@ -3,4 +3,6 @@
   <a href="https://github.com/LlamaGR1/Pre-Fortress-2-Main-Menu">GitHub</a> • <a href="https://tf2huds.dev/hud/Pre-Fortress-2-Main-Menu">TF2 HUDs</a> • <a href="https://gamebanana.com/wips/91028">GameBanana</a>
 </p>
 
+---
+
 # [LICENSE](https://github.com/LlamaGR1/Pre-Fortress-2-Main-Menu/blob/main/LICENSE.md)
